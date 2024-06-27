@@ -1,0 +1,365 @@
+.body-container {
+    display: flex;
+}
+
+.job {
+    width: 1200px;
+}
+
+.sidebar {
+    height: 1080px;
+    width: 300px;
+    border-bottom: 1px solid rgba(231, 231, 231, 1);
+    border-left: 1px solid rgba(231, 231, 231, 1);
+    background-color: rgba(252, 252, 252, 1);
+
+}
+
+.report {
+    display: flex;
+    gap: 6rem;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+.side-button {
+    padding: 20px;
+    display: flex;
+}
+
+.delete-button {
+    width: 140px;
+    height: 35px;
+    gap: 5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid rgba(220, 74, 45, 1);
+    background-color: rgba(254, 244, 242, 1);
+    color: rgba(220, 74, 45, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+
+}
+
+.edit-button {
+    display: flex;
+    margin-left: 26px;
+    width: 140px;
+    height: 35px;
+    gap: 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(254, 211, 202, 1);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: rgba(220, 74, 45, 1);
+}
+
+.del-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.appl , .matche , .mess , .view {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(79, 79, 79, 1);
+    font-weight: 300;
+
+}
+
+.fv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sv   {
+    position: relative;
+    top: 20px;
+}
+
+.tv {
+    position: relative;
+    top: 60px;
+}
+
+.fov {
+
+    position: relative;
+    top: 100px;
+
+}
+
+.icon-1 {
+    position: relative;
+    top: 2px;
+}
+
+.stline {
+    color: rgba(231, 231, 231, 1);
+    opacity: 15%;
+}
+
+.card {
+    margin: 20px 10px 20px 10px;
+    height: 150px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: -4px 8px 20px 0px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 1px, 1px, 0px, 0px;
+    border-style: solid;
+    border-color: rgba(231, 231, 231, 1);
+}
+
+.quotes {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.quote {
+   color: rgba(0, 0, 0, 1);
+   font-size: 20px;
+}
+
+.bio-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.bio {
+    display: flex;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.descr {
+    color: rgba(130, 130, 130, 1);
+}
+
+.job-details{
+    height: 150px;
+    border-bottom: 1px solid rgba(231, 231, 231, 1);
+}
+
+.job-post{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 35px;
+    color: rgba(61, 61, 61, 1);
+    margin-left: 20px;
+}
+
+.posting {
+    position: relative;
+    color: rgba(136, 136, 136, 1);
+    font-size: 14px;
+    position: relative;
+    top: 16px;
+    right: 30px;
+}
+
+.open {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(171, 239, 198, 1);
+    width: 59px;
+    height: 22px;
+    font-size: 12px;
+    color: rgba(6, 118, 71, 1);
+    background-color: rgba(236, 253, 243, 1);
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    right: 40px;
+    
+}
+
+.dot-1 {
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgba(209, 209, 209, 1);
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.dot {
+    margin-right: 3px;
+    font-size: 30px;
+    color: rgba(23, 178, 106, 1);
+}
+
+.location {
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgba(93, 93, 93, 1);
+    bottom: 20px;
+    gap: 3rem;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.skills{
+    border-bottom: 1px solid rgba(231, 231, 231, 1);
+    height: 170px;
+    display: flex;
+    gap: 7rem;
+    margin-top: 20px;
+    padding-left: 50px;
+    color: rgba(110, 109, 109, 1);
+    font-size: 14px;
+}
+
+.figma , .illustrator , .xd{
+    border: 1px solid  rgba(208, 213, 221, 1);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08) inset;
+    color: rgba(52, 64, 84, 1);
+    font-size: 12px;
+    width: fit-content; 
+    white-space: nowrap; 
+
+
+}
+
+.figma, .illustrator, .xd {
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.eng , .full , .year{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(61, 61, 61, 1);
+    margin-top: 10px;
+    
+}
+.job-description{
+    height: 370px;
+    border-bottom: 1px solid rgba(231, 231, 231, 1);
+    padding-left: 50px;
+}
+
+.about-job {
+    margin-top: 20px;
+    color: rgba(110, 109, 109, 1);
+    font-size: 14px;
+
+}
+
+.desc {
+    color: rgba(61, 61, 61, 1);
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+ul.list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+
+.company-details {
+    height: 350px;
+    border-bottom: 1px solid rgba(231, 231, 231, 1);
+}
+
+.details-container {
+    display: flex;
+    gap: 7rem;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.Company-name {
+    display: flex;
+    gap: 2rem;
+    margin-left: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.atl {
+    position: relative;
+    right: 20px;
+    color: rgba(79, 79, 79, 1);
+    font-size: 20px;
+    font-weight: 300
+}
+
+.company-img{
+    width: 40px;
+    height: 40px;
+}
+
+.comp-button {
+    width: 67px;
+    height: 26px;
+    border-radius: 8px;
+    background: rgba(224, 235, 249, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: rgba(0, 55, 136, 1);
+    font-weight: 700;
+    position: relative;
+    right: 30px;
+}
+
+.heading {
+    margin-bottom: 10px;
+    color:rgba(110, 109, 109, 1);
+    font-size: 14px;
+}
+
+.ans {
+    margin-bottom: 20px;
+    color: rgba(61, 61, 61, 1);
+    size: 16px;
+}
+
+.report-1 {
+    color: rgba(176, 176, 176, 1);
+    font-size: 12px;
+}
+
+.icons {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    right: 2px;
+    top: 3px;
+    padding: 1px;
+}
